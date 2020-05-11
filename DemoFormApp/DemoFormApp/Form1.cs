@@ -13,8 +13,14 @@ namespace DemoFormApp
     public partial class Form1 : Form
     {
         public Form1()
-        {
+        {   
+            //合并测试-本地修改
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
